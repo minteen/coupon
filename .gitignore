@@ -1,0 +1,130 @@
+# ======================================
+# Maven 项目构建输出目录（核心）
+# ======================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# 排除 maven 包装器临时文件
+.mvn/wrapper/maven-wrapper.jar
+
+# ======================================
+# Java 编译与缓存文件
+# ======================================
+*.class
+*.jar
+*.war
+*.ear
+*.aar
+hs_err_pid*
+
+# ======================================
+# IntelliJ IDEA 配置文件
+# ======================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+# IDEA 数据库配置
+.idea/dataSources/
+.idea/dataSources.local.xml
+# IDEA 工作区缓存
+.idea/workspace.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/misc.xml
+
+# ======================================
+# Eclipse 配置文件
+# ======================================
+.classpath
+.project
+.settings/
+bin/
+tmp/
+.metadata/
+.loadpath
+.recommenders
+# Eclipse 插件缓存
+*.tmp
+*.bak
+*.swp
+
+# ======================================
+# VS Code 配置文件
+# ======================================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ======================================
+# 系统与环境文件
+# ======================================
+# Windows 系统文件
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Linux 临时文件
+*~
+.fuse_hidden*
+.nfs*
+
+# ======================================
+# 日志文件
+# ======================================
+logs/
+log/
+*.log
+*.logs
+*.out
+*.xml.versionsBackup
+
+# ======================================
+# 测试与覆盖率报告
+# ======================================
+jacoco.exec
+jacoco-it.exec
+coverage/
+*.lcov
+*.clover
+
+# ======================================
+# 其他通用忽略
+# ======================================
+# 本地环境配置
+application-local.yml
+application-local.properties
+bootstrap-local.yml
+bootstrap-local.properties
+# 密钥、凭证文件
+*.key
+*.pem
+*.secret
+*.credentials
+# 临时目录
+temp/
+submit.ps1
+
