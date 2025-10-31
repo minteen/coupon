@@ -1,0 +1,2 @@
+com.nageoffer.onecoupon.framework.config.WebAutoConfiguration
+com.nageoffer.onecoupon.framework.config.IdempotentConfiguration
